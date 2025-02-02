@@ -4,8 +4,8 @@ public class Main {
         String orig2 = "StringBuilder Version!";
         String reversed = reverseString(orig);
         String reversed2 = reverseStringSB(orig2);
-        System.out.println(reversed);
-        System.out.println(reversed2);
+        System.out.printf("%s becomes %s\n", orig, reversed);
+        System.out.printf("%s becomes %s\n", orig2, reversed2);
     }
 
 //    public static String reverseString(String str) {
